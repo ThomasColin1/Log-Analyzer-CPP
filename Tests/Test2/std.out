@@ -1,0 +1,16 @@
+
+    Mode d'emploi de l'application Analyse de logs Apache
+-----------------------------------------------------------------
+|commande pour lancer l'application depuis le dossier source:   |
+|                                                               |
+|../bin/analog [options] cheminfichier.log adresseintranet      |
+|                                                               |
+|[-e]  pour exclure les extensions .png, .gif, .jpg, .css et .js|
+|[-t heure] pour ne prendre en compte que les logs dans         |
+|l'intervalle [heure, heure+1]                                  |
+|[-g nomfichier.dot] pour produire le fichier au format GraphViz|
+|                                                               |
+|Pour ensuite transformer le .dot en format .png il faut faire  |
+|la commande:       dot -Tpng -o nomimage.png nomfichier.dot    |
+-----------------------------------------------------------------
+      Mode d'emploi de l'application Analyse de logs Apache

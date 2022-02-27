@@ -1,0 +1,1 @@
+../../bin/analog -t 1 ../../tmp/testOptionT.log http://intranet-if.insa-lyon.fr
